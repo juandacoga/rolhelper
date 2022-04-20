@@ -18,8 +18,9 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'api'], function () use ($router) {
-    $router->get('onichan', function () {
-      return 'konichiwa Oni-chan';
+  $router->get('onichan', function () {
+    return 'konichiwa Oni-chan';
   });
+  
 });
 
