@@ -17,7 +17,7 @@ return new class extends Migration
       Schema::create('users', function (Blueprint $table) {
         $table->string('name');//Nombre del usuario
         $table->string('email')->unique(); // correo email
-        $table->timestamp('email_verified_at')->nullable(); //Verificar correo
+        $table->timestamp('email_verified_at')->nullable(); //Verificar correo 
      });
     }
 
